@@ -1,0 +1,73 @@
+body{
+	font-family:Verdana, san-serif;
+	font-size:12px;
+	text-height:10px;
+	cursor:default;
+	background:;
+	color:;
+	padding:0;
+	margin:0;}
+
+	
+	
+/*--- 
+HEADING
+Resets the headings to go smallest to largest h1 - h6;
+Also removes the block element for easier formatting;
+Change the font-size in accordance to use
+---*/
+
+h1,h2,h3,h4,h5,h6{margin:0; padding:0; display:inline;}
+
+h1{font-size:105%}
+h2{font-size:110%}
+h3{font-size:120%}
+h4{font-size:130%}
+h5{font-size:140%}
+h6{font-size:150%}
+	
+	
+
+/*---
+ANCHORS
+Takes the default (underline and blue) off;
+Hover can be replaced for what it must do on hover;
+---*/	
+
+a{
+	color:black;
+	text-decoration: none;}
+	
+a:hover{
+	color:;
+	font-size:;
+	text-decoration:;}
+
+
+	
+/*---
+IDs
+Default width 824px, but that can be changed
+Tabbed based on control structure
+---*/
+	
+#page-container{
+	width:100%;
+	margin:0;
+	padding:0;}
+	
+	#navi{
+		width:inherit;
+		margin:inherit;
+		padding:inherit;}
+				
+	#content{
+		margin:inherit;
+		padding:20px;
+		margin:auto;
+		width:824px;}
+				
+	#footer{
+		text-align: center;
+		padding-top: 20px;}
+				
